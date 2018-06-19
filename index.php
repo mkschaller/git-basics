@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PHP Form Validation</title>
+<title>GitHub for Web Designers</title>
 <!--Link to CSS files-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -74,7 +74,7 @@
 <body>
 	<?php include 'navbar.php'; ?>
 	<div class="container">
-		<h1 class="text-info">Forms using PHP</h1>
+		<h1 class="text-info"><span aria-hidden="true" data-icon="&#xE087;" class="github-icon"></span> GitHub for Web Designers</h1>
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 			<div class="row">
 				<div class="col-sm-3">
